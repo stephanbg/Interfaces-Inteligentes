@@ -8,7 +8,8 @@
  * @since 26 de Septiembre de 2024
  * @file ImprimePosicionObj.cs
  * @brief Este script imprime en la consola la posición de un GameObject 
- * asignado en el Inspector al iniciar la escena.
+ * asignado en el Inspector al iniciar la escena, también actualiza la
+ * posición en caso de que dicho objeto se mueva.
  */
 
 using System.Collections;
