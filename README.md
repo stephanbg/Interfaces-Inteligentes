@@ -1,5 +1,6 @@
 # Introducción a Unity
 ---
+## Descripción del proyecto
 En este proyecto, se desarrollará una escena 3D básica utilizando exclusivamente el editor de escenas de Unity. A continuación se detallan los pasos a seguir para completar la tarea:
 
 **1.- Creación de la Escena:**
