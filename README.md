@@ -25,8 +25,8 @@ En este proyecto, se desarrollará una escena 3D básica utilizando exclusivamen
 
 - Se creará un script en C# que utilizará el componente Transform para acceder a la propiedad position de cada objeto y escribir la posición en la consola al iniciar la escena.
 
-**6.- Visualización de la escena:**
+**6.- GIF de la escena:**
 
-![Escena_p01](https://github.com/user-attachments/assets/d1787175-d4e4-4b10-a426-baf3961e0381)
+![2024-09-2813-43-13-ezgif com-resize](https://github.com/user-attachments/assets/d4f6b53a-21f4-4c1e-a58c-a73d6ced66ff)
 
 ---
