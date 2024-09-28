@@ -19,11 +19,27 @@ using UnityEngine;
 public class ImprimePosicionObj : MonoBehaviour {
  // Variable pública para asignar un GameObject desde el Inspector
  public GameObject obj;
+ // Variable para almacenar la posición anterior
+ private Vector3 posicionAnterior;
  // Método que se llama al iniciar el script
  void Start() {
-   // Obtiene la posición del objeto asignado
+   // Inicializa la posición anterior
+   posicionAnterior = obj.transform.position; 
+   // Imprime la posición inicial
+   ImprimirPosicion();
+ }
+ // Método que se llama en cada frame
+ void Update() {
+   // Compara la posición actual con la posición anterior
+   Vector3 posicionActual = obj.transform.position;
+   // Si la posición ha cambiado, el objeto está en movimiento
+   if (posicionActual != posicionAnterior) ImprimirPosicion();
+   // Actualiza la posición anterior para el siguiente frame
+   posicionAnterior = posicionActual;
+ }
+ // Método para imprimir la posición del objeto
+ void ImprimirPosicion() {
    Vector3 posiciones = obj.transform.position;
-   // Imprime en la consola la posición del objeto
    Debug.Log(
      "El objeto con nombre " + obj.name + " se encuentra en la posición (x: " +
      posiciones.x + ", y: " + posiciones.y + ", z: " + posiciones.z + ")"
