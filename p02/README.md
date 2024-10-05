@@ -1,3 +1,15 @@
+# Introducción C# - Scripts
+
+---
+
+## Objetivos
+
+El objetivo de estos ejercicios es familiarizarse con la creación y manipulación de objetos en Unity, utilizando scripting para controlar propiedades como color, posición y distancia, así como aprender a gestionar componentes y etiquetas. Esto incluye tanto la interacción con la interfaz como el manejo de la lógica de programación en C#.
+
+---
+
+## Ejercicios
+
 **1.-** Crea un script asociado a un objeto en la escena que inicialice un vector de 3 posiciones con valores entre 0.0 y 1.0, para tomarlo como un vector de color (Color). Cada 120 frames se debe cambiar el valor de una posición aleatoria y asignar el nuevo color al objeto. Parametrizar la cantidad de frames de espera para poderlo cambiar desde el inspector.
 
 ![eje1](https://github.com/user-attachments/assets/c4254ead-d9d0-43f7-8889-607a0ad0270a)
