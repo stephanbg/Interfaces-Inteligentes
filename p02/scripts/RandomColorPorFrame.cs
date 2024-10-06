@@ -20,12 +20,12 @@ using UnityEngine;
  *  un número específico de frames.
  */
 public class RandomColorPorFrame : MonoBehaviour {
+ // Número de frames a esperar antes de cambiar el color.
+ public int framesEspera = 120; 
  // Almacena un color aleatorio.
  private Color randomColor;
  // Contador de frames transcurridos.
  private int contadorFrames = 0;
- // Número de frames a esperar antes de cambiar el color.
- public int framesEspera = 120;
  // Inicializa un color aleatorio al inicio.
  private void Start() {
    randomColor = new Color(Random.value, Random.value, Random.value);
