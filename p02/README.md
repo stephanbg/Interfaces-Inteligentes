@@ -37,7 +37,7 @@ Muestra en el inspector cada uno de esos valores.
 
 **6.-** Selecciona tres posiciones en tu escena a través de un objeto invisible (marcador) que incluya 3 vectores numéricos para configurar posiciones en las que quieres ubicar los objetos en respuesta a pulsar la barra espaciadora. Estos vectores representan un desplazamiento respecto a la posición original del objeto. Crea un script que ubique en las posiciones configuradas cuando el usuario pulse la barra espaciadora. 
 
-![eje6](https://github.com/user-attachments/assets/77ef5842-c7ae-4d7a-ada5-a1d92e4a3859)
+![eje6](https://github.com/user-attachments/assets/abff4fbf-40fb-4f32-905e-f95ea4a8b5db)
 
 **7.-** Cambia el color del cilindro cuando el usuario pulse la tecla C, cambia el color del cubo cuando el usuario pulse la flecha arriba.
 
