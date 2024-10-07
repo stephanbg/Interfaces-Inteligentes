@@ -18,20 +18,20 @@ using UnityEngine;
 
 // Clase que gestiona el movimiento de tres objetos etiquetados en la escena.
 public class MoverObjetos : MonoBehaviour {
- // Variables para almacenar referencias a los objetos a mover.
- private GameObject obj1, obj2, obj3;
  // Vectores de desplazamiento para cada objeto.
  public Vector3 desplazamiento1 = new Vector3(0.7f, -0.5f, 0.5f);
  public Vector3 desplazamiento2 = new Vector3(-0.5f, 0.5f, -0.5f);
  public Vector3 desplazamiento3 = new Vector3(0.5f, -0.5f, 0.3f);
+ // Variables para almacenar referencias a los objetos a mover.
+ private GameObject obj1, obj2, obj3; 
  // Método llamado al iniciar el script, para buscar y asignar los objetos por sus etiquetas.
- void Start() {
+ private void Start() {
    obj1 = GameObject.FindGameObjectWithTag("obj1-eje6");
    obj2 = GameObject.FindGameObjectWithTag("obj2-eje6");
    obj3 = GameObject.FindGameObjectWithTag("obj3-eje6");
  }
  // Método llamado en cada frame.
- void Update() {
+ private void Update() {
    // Verificar si se está presionando la tecla de salto.
    if (Input.GetAxis("Jump") > 0) {
      // Mover los objetos aplicando el desplazamiento multiplicado por el tiempo delta.
