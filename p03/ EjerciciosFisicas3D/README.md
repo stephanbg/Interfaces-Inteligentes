@@ -4,7 +4,8 @@ El ejercicio consiste en experimentar con diferentes configuraciones de los comp
 
 - Plano, Cubo y Esfera. El plano, y la cámara se ubican en las posiciones por defecto. El cubo se ubica con y=0.5.
 
-![ejercicioFisicas3D](https://github.com/user-attachments/assets/d62ae253-17a6-4e2d-ab2f-efbfeb1e662a)
+![ejercicioFisicas3D](https://github.com/user-attachments/assets/6fc2d94b-6553-4cc6-b845-2f3050aa3b9f)
+
 
 ## Situación 1
 
