@@ -143,11 +143,9 @@ En este gif, se observa que, al ser cinemática, la esfera no se ve influenciada
 
 El plano es un objeto físico. El cubo es un objeto físico y la esfera es física y es Trigger. En este caso, todos los objetos deben tener Rigidbody.
 
-Los 3 objetos son RigidBody pero se le añade a la esfera que sea Triggerm, como en la situación anterior.
+Los tres objetos son Rigidbody, pero se añade a la esfera la configuración de Trigger. Un Rigidbody configurado como Trigger puede detectar cuándo otros colliders entran o salen de su área sin generar una respuesta física. Esto significa que, aunque participa en la simulación física, no bloquea ni empuja a otros objetos. Se utiliza principalmente para activar eventos en el juego, como iniciar diálogos o activar mecánicas, permitiendo interacciones flexibles.
 
-Un objeto con un Rigidbody configurado como Trigger puede detectar cuándo otros colliders entran o salen de su área sin generar una respuesta física. Esto significa que, aunque participa en la simulación física, no bloquea ni empuja otros objetos. Se utiliza principalmente para activar eventos en el juego, como iniciar diálogos o activar mecánicas, permitiendo interacciones flexibles sin efectos de colisión.
-
-En este gif, ajustaré el drag para mostrar cómo, a pesar de que la esfera es un Rigidbody configurado como Trigger, atraviesa otros objetos. Esto se debe a que, aunque detecta las colisiones, solo las utiliza para activar eventos y no genera efectos visuales de colisión.
+En el gif, ajustaré el drag para mostrar cómo la esfera, al ser un Rigidbody configurado como Trigger, atraviesa otros objetos. Aunque detecta las colisiones, solo las utiliza para activar eventos y no genera efectos visuales de colisión.
 
 ![situacion9](https://github.com/user-attachments/assets/26cc2bb3-529a-4f8d-bbf7-ef28a1d1ee39)
 
