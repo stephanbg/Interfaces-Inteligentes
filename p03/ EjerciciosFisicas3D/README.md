@@ -69,3 +69,7 @@ El plano es un objeto físico. El cubo es un objeto físico y la esfera no es f�
 ## Situación 9
 
 El plano es un objeto físico. El cubo es un objeto físico y la esfera es física y es Trigger. En este caso, todos los objetos deben tener Rigidbody.
+
+## Notas adicionales
+
+- Para mover un RigidBody, es aconsejable utilizar métodos como AddForce, MovePosition o MoveRotation, que están diseñados específicamente para interactuar con la física del motor. Estos métodos garantizan un comportamiento coherente y predecible dentro de la simulación. Manipular directamente el transform de un RigidBody puede dar lugar a situaciones imprevistas, como colisiones erráticas o movimientos no deseados, ya que no se alinean con los cálculos físicos que gestiona el motor.
