@@ -101,11 +101,17 @@ Al aumentar la masa de un objeto, uno podría pensar que debería caer más ráp
 
 En esta escena, como no hemos configurado factores como la fricción o la resistencia del aire, todos los objetos experimentan la misma aceleración gravitacional, lo que resulta en que caen simultáneamente. En condiciones ideales, sin otros factores que afecten el movimiento, la masa no influye en la velocidad de caída de un objeto. El gif quedaría igual que la situación 4.
 
-![situacion4](https://github.com/user-attachments/assets/822a00b0-a10a-475c-acfa-239310c8951b)v
+![situacion4](https://github.com/user-attachments/assets/822a00b0-a10a-475c-acfa-239310c8951b)
 
 ## Situación 6
 
-El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con 100 veces más masa que el cubo. En este caso, todos los objetos deben tener Rigidbody.
+El plano es un objeto físico, al igual que el cubo, mientras que la esfera tiene una masa 100 veces mayor que la del cubo. En este caso, todos los objetos deben tener un componente Rigidbody.
+
+![Masax100](https://github.com/user-attachments/assets/6b17a23a-3a15-4cd8-b360-68a47b9c3c58)
+
+En esta situación, la configuración es similar a la anterior, con la única diferencia de que la esfera posee una masa significativamente mayor. Sin embargo, al igual que antes, aunque incrementemos la masa de un objeto, si no ajustamos factores como la fricción o otros elementos de la escena, la velocidad de caída de todos los objetos será la misma.
+
+![situacion4](https://github.com/user-attachments/assets/822a00b0-a10a-475c-acfa-239310c8951b)
 
 ## Situación 7
 
