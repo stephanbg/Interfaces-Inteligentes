@@ -42,7 +42,7 @@ Se puede comprobar como al cubo le afecta la gravedad y rebota con la esfera y e
 
 El plano no es un objeto físico. El cubo es un objeto físico y la esfera también. En este caso, el plano sólo tendrán collider, mientras que el cubo y la esfera deben tener Rigidbody.
 
-- Cubo y Esfera (Rigidbody y Box Collider):
+- Cubo y Esfera (Rigidbody, Box Collider y Sphere Collider):
   - Sucede lo mismo que con el cubo en la situación 1.
 
 Solo se muestra el componente añadido de RigidBody a la esfera, debido a que es lo nuevo en esta escena.
@@ -60,9 +60,9 @@ Se puede observar cómo tanto el cubo como la esfera son afectados por la graved
 
 El plano no es un objeto físico. El cubo es un objeto físico y la esfera es cinemática. En este caso, el plano sólo tendrán collider, mientras que el cubo y la esfera deben tener Rigidbody esta última cinemático.
 
-- Cubo y Esfera (Rigidbody y Box Collider):
+- Cubo y Esfera (Rigidbody, Box Collider y Sphere Collider):
   - Sucede lo mismo que con el cubo en la situación 1.
-  - A la esfera se le añade también que sea cinemática.
+  - A la esfera se le añade también que sea **cinemática**.
  
   ![isKinematic](https://github.com/user-attachments/assets/0d380056-7b10-4adc-b1f0-5d620b97a45d)
 
@@ -80,6 +80,13 @@ Se puede observar que el cubo, al ser un RigidBody, sigue respondiendo a las fue
 ## Situación 4
 
 El plano es un objeto físico. El cubo es un objeto físico y la esfera es física. En este caso, todos los objetos deben tener Rigidbody.
+
+- Cubo, Esfera y Plano (Rigidbody, Box Collider, Sphere Collider y Mesh Collider):
+  - Ahora los 3 objetos de la escena son RigidBody, por lo que reciben interacciones físicas (gravedad, movimiento).
+
+Por lo tanto, como se observa a continuación, todos los objetos tienen la misma masa, lo que permite que la gravedad actúe de manera uniforme sobre ellos, haciendo que caigan simultáneamente.
+
+![situacion4](https://github.com/user-attachments/assets/822a00b0-a10a-475c-acfa-239310c8951b)
 
 ## Situación 5
 
