@@ -131,7 +131,7 @@ El plano es un objeto físico. El cubo es un objeto físico y la esfera no es f�
 
 En esta situación, para que la esfera no actúe como un objeto físico, pero aún así tenga el componente Rigidbody, es necesario activar la opción de cinemática. Esto se debe a que, al configurarla como cinemática, la esfera no será afectada por la gravedad ni por fuerzas externas, lo que le permite evitar interacciones físicas directas con otros objetos en la escena.
 
-![trigger](https://github.com/user-attachments/assets/9935d5ed-90d7-4d46-bd5f-9a55b02b3711)
+![trigger](https://github.com/user-attachments/assets/12e1b205-2615-4e67-9da7-dcf0ce86f7f1)
 
 ![isKinematic](https://github.com/user-attachments/assets/0d380056-7b10-4adc-b1f0-5d620b97a45d)
 
