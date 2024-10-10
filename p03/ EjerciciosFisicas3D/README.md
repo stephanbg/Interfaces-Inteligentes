@@ -151,6 +151,22 @@ En el gif, ajustaré el drag para mostrar cómo la esfera, al ser un Rigidbody c
 
 ## Notas adicionales
 
-- Para mover un RigidBody, es aconsejable utilizar métodos como AddForce, MovePosition o MoveRotation, que están diseñados específicamente para interactuar con la física del motor. Estos métodos garantizan un comportamiento coherente y predecible dentro de la simulación. Manipular directamente el transform de un RigidBody puede dar lugar a situaciones imprevistas, como colisiones erráticas o movimientos no deseados, ya que no se alinean con los cálculos físicos que gestiona el motor.
-  
-- La masa de un objeto juega un papel crucial en las fuerzas de colisión entre objetos. Un objeto con mayor masa ejercerá más fuerza al colisionar, lo que influye en el movimiento resultante de ambos objetos. Por otro lado, el drag afecta la resistencia al movimiento a través del aire, lo que impacta en la velocidad de caída del objeto. A mayor drag, mayor será la desaceleración, lo que puede hacer que los objetos caigan más lentamente en comparación con aquellos con menos drag.
+***1.- Métodos para Mover Rigidbodies:***
+
+Al trabajar con objetos que tienen un componente Rigidbody, es fundamental utilizar métodos como AddForce, MovePosition o MoveRotation. Estos métodos están diseñados para interactuar con el motor físico de Unity y garantizan un comportamiento predecible en la simulación. Manipular directamente el transform de un Rigidbody puede llevar a situaciones imprevistas, como colisiones erráticas o movimientos no deseados, ya que no se alinean con los cálculos físicos gestionados por el motor.
+
+***2.- Influencia de la Masa en las Colisiones:***
+
+La masa de un objeto desempeña un papel crucial en las fuerzas de colisión. Un objeto con mayor masa ejercerá más fuerza al colisionar, lo que afecta al movimiento resultante de ambos objetos involucrados. Por ejemplo, en una colisión entre un cubo ligero y una esfera pesada, la esfera (siendo más masiva) seguirá moviéndose con más velocidad tras la colisión, mientras que el cubo experimentará un cambio de velocidad más significativo.
+
+***3.- Efecto del Drag en el Movimiento:***
+
+El drag representa la resistencia al movimiento a través del aire. Un objeto con un drag alto experimentará una desaceleración más pronunciada en comparación con uno con menos drag. Por ejemplo, si se lanza un cubo y una esfera con el mismo impulso, el cubo con mayor drag caerá más lentamente y se detendrá antes que la esfera, que tiene menos resistencia.
+
+***4.- Uso de Triggers en el Juego:***
+
+Los triggers permiten detectar colisiones sin generar una respuesta física. Esto es útil para activar eventos en el juego, como iniciar diálogos, recolectar objetos o activar mecanismos. Por ejemplo, al entrar en el área de un trigger, un personaje podría activar una animación o recibir un objeto sin que los colisionadores interfieran físicamente con su movimiento.
+
+***5.- Prácticas de Optimización:***
+
+Para mejorar el rendimiento de la simulación física, es recomendable utilizar colliders simplificados y ajustar las propiedades de los Rigidbody según las necesidades del juego. Por ejemplo, los objetos que no requieren interacción física constante pueden configurarse como Rigidbody cinemáticos para optimizar el procesamiento.
