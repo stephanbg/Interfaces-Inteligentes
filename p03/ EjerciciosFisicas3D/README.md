@@ -129,6 +129,16 @@ En este gif se puede observar como al añadirle 10 de fricción a la esfera va a
 
 El plano es un objeto físico. El cubo es un objeto físico y la esfera no es física y es Trigger. En este caso, todos los objetos deben tener Rigidbody.
 
+Los 3 objetos son RigidBody pero se le añade a la esfera que sea Trigger.
+
+![trigger](https://github.com/user-attachments/assets/9935d5ed-90d7-4d46-bd5f-9a55b02b3711)
+
+Un objeto con un Rigidbody configurado como Trigger puede detectar cuándo otros colliders entran o salen de su área sin generar una respuesta física. Esto significa que, aunque participa en la simulación física, no bloquea ni empuja otros objetos. Se utiliza principalmente para activar eventos en el juego, como iniciar diálogos o activar mecánicas, permitiendo interacciones flexibles sin efectos de colisión.
+
+En este gif modificaré un poco el drag para que se observe como aunque la esfera sea rigidbody, también es trigger y atraviesa el resto de objetos porque aunque detecte las colisiones, solo las utiliza para disparar eventos pero no efectos visuales es colisiones.
+
+![situacion8](https://github.com/user-attachments/assets/26cc2bb3-529a-4f8d-bbf7-ef28a1d1ee39)
+
 ## Situación 9
 
 El plano es un objeto físico. El cubo es un objeto físico y la esfera es física y es Trigger. En este caso, todos los objetos deben tener Rigidbody.
