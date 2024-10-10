@@ -50,6 +50,10 @@ Mueve el cubo con las teclas de flecha arriba-abajo, izquierda-derecha a la velo
 
 Adapta el movimiento en el ejercicio 4 para que sea proporcional al tiempo transcurrido durante la generación del frame.
 
+En el ejercicio anterior, ya había ajustado el movimiento para que fuera proporcional al tiempo transcurrido en cada frame, utilizando Time.deltaTime. Esto permite que el movimiento se vea más fluido y constante, sin depender de la tasa de frames. Así, los objetos se mueven a una velocidad uniforme, independientemente de cuántos frames se generen por segundo. Una vez se adquiere el vector de movimiento se modifica el transform del objeto mediante Translate.
+
+![eje5](https://github.com/user-attachments/assets/bd16be5a-e100-49a4-9573-037313d67be5)
+
 ---
 
 ### Ejercicio 6
