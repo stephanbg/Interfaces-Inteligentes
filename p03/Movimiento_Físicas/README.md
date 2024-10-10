@@ -42,6 +42,8 @@ Crea un script asociado al cubo que en cada iteración traslade al cubo una cant
 
 Mueve el cubo con las teclas de flecha arriba-abajo, izquierda-derecha a la velocidad speed. Cada uno de estos ejes implican desplazamientos en el eje vertical y horizontal respectivamente. Mueve la esfera con las teclas w-s (movimiento vertical) a-d (movimiento horizontal).
 
+![eje4](https://github.com/user-attachments/assets/68be9fa3-3f01-4d6a-9a2b-de4155e1bc8d)
+
 ---
 
 ### Ejercicio 5
