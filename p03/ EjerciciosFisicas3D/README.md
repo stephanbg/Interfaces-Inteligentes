@@ -92,6 +92,17 @@ Por lo tanto, como se observa a continuación, todos los objetos tienen la misma
 
 El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con 10 veces más masa que el cubo. En este caso, todos los objetos deben tener Rigidbody.
 
+- Cubo, Esfera y Plano (Rigidbody, Box Collider, Sphere Collider y Mesh Collider):
+  - Sucede lo mismo que en la situación 4, pero ahora la esfera tiene 10 veces más masa que el cubo. Por defecto todos tienen de masa 1.
+
+![Masax10](https://github.com/user-attachments/assets/11e8f4d7-959b-46a5-99f8-9fbdee1ce5b3)
+
+Al aumentar la masa de un objeto, uno podría pensar que debería caer más rápido que los demás debido a la gravedad. Sin embargo, en un entorno de simulación física como Unity, todos los objetos, independientemente de su masa, caen a la misma velocidad en ausencia de resistencia. Esto se debe a que la aceleración debida a la gravedad es constante y actúa de igual manera sobre todos los cuerpos.
+
+En esta escena, como no hemos configurado factores como la fricción o la resistencia del aire, todos los objetos experimentan la misma aceleración gravitacional, lo que resulta en que caen simultáneamente. En condiciones ideales, sin otros factores que afecten el movimiento, la masa no influye en la velocidad de caída de un objeto. El gif quedaría igual que la situación 4.
+
+![situacion4](https://github.com/user-attachments/assets/822a00b0-a10a-475c-acfa-239310c8951b)v
+
 ## Situación 6
 
 El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con 100 veces más masa que el cubo. En este caso, todos los objetos deben tener Rigidbody.
