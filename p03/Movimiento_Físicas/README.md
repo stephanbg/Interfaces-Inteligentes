@@ -10,11 +10,15 @@
 
 Agrega un campo velocidad a un cubo y asígnale un valor que se pueda cambiar en el inspector de objetos. Muestra la consola el resultado de multiplicar la velocidad por el valor del eje vertical y por el valor del eje horizontal cada vez que se pulsan las teclas flecha arriba-abajo ó flecha izquierda-derecha. El mensaje debe comenzar por el nombre de la flecha pulsada.
 
+![eje1](https://github.com/user-attachments/assets/143ff9be-8168-411c-b7e9-a48338f9542d)
+
 ---
 
 ### Ejercicio 2
 
 Mapea la tecla H a la función disparo.
+
+![eje2](https://github.com/user-attachments/assets/02132b89-73d2-456d-8f7c-433f54290c03)
 
 ---
 
