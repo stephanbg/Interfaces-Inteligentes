@@ -60,6 +60,23 @@ Se puede observar cómo tanto el cubo como la esfera son afectados por la graved
 
 El plano no es un objeto físico. El cubo es un objeto físico y la esfera es cinemática. En este caso, el plano sólo tendrán collider, mientras que el cubo y la esfera deben tener Rigidbody esta última cinemático.
 
+- Cubo y Esfera (Rigidbody y Box Collider):
+  - Sucede lo mismo que con el cubo en la situación 1.
+  - A la esfera se le añade también que sea cinemática.
+ 
+  ![isKinematic](https://github.com/user-attachments/assets/0d380056-7b10-4adc-b1f0-5d620b97a45d)
+
+Un RigidBody cinemático permite que un objeto se mueva y se controle manualmente sin ser afectado por la gravedad o fuerzas físicas. Esto significa que puedes posicionarlo y moverlo a voluntad, pero aún así puede colisionar con otros objetos y empujarlos.
+
+La principal diferencia con un simple Collider es que, mientras que un Collider solo detecta colisiones y no tiene interacción física, un RigidBody cinemático puede influir en otros objetos en la escena. Esto permite que el objeto con el RigidBody cinemático participe activamente en la simulación de colisiones, manteniendo una lógica de movimiento más coherente y flexible dentro del motor de física.
+
+- Plano (Mesh Collider):
+  - El plano no cambia respecto a la situación 1.
+
+Se puede observar que el cubo, al ser un RigidBody, sigue respondiendo a las fuerzas físicas, como la gravedad y las colisiones. En contraste, al activar el modo cinemático en la esfera, se desactiva su interacción con la física, lo que le permite ser controlada manualmente. Esto significa que, aunque la esfera no es afectada por la gravedad ni por otras fuerzas, puede interactuar con el cubo, permitiendo un manejo más preciso de las colisiones. Por otro lado, el plano actúa como un 'muro', funcionando como un Collider que detiene tanto al cubo como a cualquier otro objeto que se encuentre con él.
+
+![situacion3](https://github.com/user-attachments/assets/874e248c-ab8d-4c8d-8d13-51cfac810efa)
+
 ## Situación 4
 
 El plano es un objeto físico. El cubo es un objeto físico y la esfera es física. En este caso, todos los objetos deben tener Rigidbody.
