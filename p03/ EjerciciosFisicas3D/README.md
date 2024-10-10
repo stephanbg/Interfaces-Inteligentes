@@ -18,21 +18,21 @@ El plano no es un objeto físico. El cubo es un objeto físico y la esfera no. E
     - Rigidbody: Permite la interacción física (gravedad, movimiento).
     - Box Collider: Define la forma de colisión del cubo, permitiendo detectar interacciones con otros objetos.
 
-![Cubo](https://github.com/user-attachments/assets/3a7ba7b6-9b98-4980-b6b2-3d756f8783fb)
+![Cubo1](https://github.com/user-attachments/assets/3a7ba7b6-9b98-4980-b6b2-3d756f8783fb)
 
 - Esfera (Sphere Collider):
 
   - Función: Detecta colisiones sin moverse.
   - Componentes: Sphere Collider permite activar eventos al colisionar con otros objetos (Predeterminado).
 
-![Esfera](https://github.com/user-attachments/assets/121cb1b7-cc80-485d-8d6f-0292fa24a8c0)
+![Esfera1](https://github.com/user-attachments/assets/121cb1b7-cc80-485d-8d6f-0292fa24a8c0)
 
 - Plano (Mesh Collider):
 
   - Función: Superficie estática que detiene al cubo.
   - Componentes: Mesh Collider permite que el cubo colisione sin ser un objeto físico en movimiento (Predeterminado).
 
-![Plano](https://github.com/user-attachments/assets/80fab29a-8e42-41fb-ab28-8180e1c3ecaf)
+![Plano1](https://github.com/user-attachments/assets/80fab29a-8e42-41fb-ab28-8180e1c3ecaf)
 
 Se puede comprobar como al cubo le afecta la gravedad y rebota con la esfera y el plano.
 
@@ -41,6 +41,20 @@ Se puede comprobar como al cubo le afecta la gravedad y rebota con la esfera y e
 ## Situación 2
 
 El plano no es un objeto físico. El cubo es un objeto físico y la esfera también. En este caso, el plano sólo tendrán collider, mientras que el cubo y la esfera deben tener Rigidbody.
+
+- Cubo y Esfera (Rigidbody y Box Collider):
+  - Sucede lo mismo que con el cubo en la situación 1.
+
+Solo se muestra el componente añadido de RigidBody a la esfera, debido a que es lo nuevo en esta escena.
+
+![Esfera2](https://github.com/user-attachments/assets/a8b27327-3738-4843-aaa1-20604a8b8f3f)
+
+- Plano (Mesh Collider):
+  - El plano no cambia respecto a la situación 1.
+ 
+Se puede observar cómo tanto el cubo como la esfera son afectados por la gravedad, rebotan entre sí y se detienen al interactuar con el plano.
+
+![situacion2](https://github.com/user-attachments/assets/5673bbc1-27b6-44d5-b0e5-9a902d13c689)
 
 ## Situación 3
 
