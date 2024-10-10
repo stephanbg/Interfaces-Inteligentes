@@ -117,6 +117,14 @@ En esta situación, la configuración es similar a la anterior, con la única di
 
 El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con fricción. En este caso, todos los objetos deben tener Rigidbody.
 
+Los 3 objetos son RigidBody como en las situaciones anteriores, lo único que se le añade fricción (Drag) a la esfera para que veamos como si que cambia su velocidad al caer respecto al resto de objetos.
+
+![Friccion](https://github.com/user-attachments/assets/122961ac-0edd-4d44-a3d8-8ada10b5acd9)
+
+En este gif se puede observar como al añadirle 10 de fricción a la esfera va a caer más lento que los otros dos objetos.
+
+![situacion7](https://github.com/user-attachments/assets/ab75b60d-feca-49c8-90de-5e0b4449fc8a)
+
 ## Situación 8
 
 El plano es un objeto físico. El cubo es un objeto físico y la esfera no es física y es Trigger. En este caso, todos los objetos deben tener Rigidbody.
@@ -128,3 +136,5 @@ El plano es un objeto físico. El cubo es un objeto físico y la esfera es físi
 ## Notas adicionales
 
 - Para mover un RigidBody, es aconsejable utilizar métodos como AddForce, MovePosition o MoveRotation, que están diseñados específicamente para interactuar con la física del motor. Estos métodos garantizan un comportamiento coherente y predecible dentro de la simulación. Manipular directamente el transform de un RigidBody puede dar lugar a situaciones imprevistas, como colisiones erráticas o movimientos no deseados, ya que no se alinean con los cálculos físicos que gestiona el motor.
+  
+- La masa de un objeto juega un papel crucial en las fuerzas de colisión entre objetos. Un objeto con mayor masa ejercerá más fuerza al colisionar, lo que influye en el movimiento resultante de ambos objetos. Por otro lado, el drag afecta la resistencia al movimiento a través del aire, lo que impacta en la velocidad de caída del objeto. A mayor drag, mayor será la desaceleración, lo que puede hacer que los objetos caigan más lentamente en comparación con aquellos con menos drag.
