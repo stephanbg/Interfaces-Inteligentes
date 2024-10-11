@@ -136,6 +136,10 @@ Además, le he desactivado la gravedad en la cápsula. Esto es importante porque
 
 Configura el cubo como un objeto cinemático y la esfera como un objeto físico. Adapta los scripts del ejercicio 9 para obtener el mismo comportamiento.
 
+El script `MostrarNombreCuandoColisione` ya está correctamente configurado para detectar colisiones. Solo es necesario asegurarse de que la esfera tenga un RigidBody normal, no cinemático. Esto permitirá que la esfera interactúe físicamente y genere colisiones adecuadas con el cubo. Cuando el cubo colisione con la esfera, el script mostrará el nombre del cubo en la consola.
+
+![eje10](https://github.com/user-attachments/assets/7c2d7373-2add-4806-93dd-448008714a8d)
+
 ---
 
 ### Ejercicio 11
