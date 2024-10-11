@@ -116,7 +116,7 @@ El segundo script se centra en el movimiento hacia adelante del cubo. Aquí, uti
 
 El gif resultante muestra cómo ambos scripts interactúan: el cubo gira en función de la entrada del usuario mientras avanza en la dirección en la que está apuntando. Esta separación de lógica en dos scripts facilita el control y ajustes futuros, haciendo el código más modular y flexible.
 
-![eje8](https://github.com/user-attachments/assets/43b1dfc0-7795-464e-8c9b-a5c33cd3bdb2)
+![eje8](https://github.com/user-attachments/assets/8d6b700f-80ff-4632-8f66-70cd402d936e)
 
 ---
 
