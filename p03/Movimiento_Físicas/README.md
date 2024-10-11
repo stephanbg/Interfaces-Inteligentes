@@ -108,6 +108,16 @@ En el gif, el cubo combina su movimiento hacia la esfera con la rotación usando
 
 Utilizar el eje “Horizontal” para girar el objetivo y que avance siempre en la dirección hacia adelante.
 
+En este ejercicio, he separado la funcionalidad en dos scripts distintos para mejorar la organización y claridad del código.
+
+El primer script se encarga de la rotación del cubo, utilizando el método Rotate en combinación con Input.GetAxis("Horizontal"). Esto permite que el cubo gire suavemente alrededor del eje Y en respuesta a las teclas A y D, o las flechas izquierda y derecha.
+
+El segundo script se centra en el movimiento hacia adelante del cubo. Aquí, utilizo transform.Translate(transform.forward * velocidad * Time.deltaTime, Space.World) para mover el cubo continuamente en la dirección en la que está mirando. Esto garantiza que, sin importar su rotación, el cubo se desplace siempre hacia adelante.
+
+El gif resultante muestra cómo ambos scripts interactúan: el cubo gira en función de la entrada del usuario mientras avanza en la dirección en la que está apuntando. Esta separación de lógica en dos scripts facilita el control y ajustes futuros, haciendo el código más modular y flexible.
+
+![eje8](https://github.com/user-attachments/assets/43b1dfc0-7795-464e-8c9b-a5c33cd3bdb2)
+
 ---
 
 ### Ejercicio 9
