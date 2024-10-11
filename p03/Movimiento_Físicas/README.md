@@ -47,8 +47,16 @@ transform.Translate(movimientoDireccion.normalized * proporcionalidad * velocida
 Por lo tanto, al duplicar la velocidad, efectivamente se duplica el desplazamiento total del cubo en cada iteración, igualando el efecto de haber duplicado la dirección del movimiento. Ambos enfoques llevan al cubo a la misma posición final tras un intervalo de tiempo determinado.
  
  c.- la velocidad que usas es menor que 1.
+
+ ![eje3(c)](https://github.com/user-attachments/assets/bfbd5ac6-1e61-49ad-a00e-89232ed922dd)
+
+Al utilizar una velocidad de 0.5, estamos limitando el desplazamiento del cubo, lo que efectivamente actúa como un factor de división por 2. Por lo tanto, aunque el cubo se mueve en la misma dirección, lo hace a una velocidad reducida, resultando en un desplazamiento más lento. al utilizar una velocidad de 0.5, estamos limitando el desplazamiento del cubo, lo que efectivamente actúa como un factor de división por 2. Por lo tanto, aunque el cubo se mueve en la misma dirección, lo hace a una velocidad reducida, resultando en un desplazamiento más lento.
  
  d.- la posición del cubo tiene y>0.
+
+ ![eje3(d)](https://github.com/user-attachments/assets/a06cd23c-7306-4d3f-a3dc-6ba4fb75a324)
+
+Al partir de `y = 2` y usar un movimiento basado en la referencia local, el cubo se desplazará en la misma dirección definida por movimientoDireccion, sin importar su altura inicial. Esto contrasta con un movimiento basado en la referencia mundial, donde la posición inicial tendría un impacto más significativo en la dirección del desplazamiento.
  
  e.- intercambiar movimiento relativo al sistema de referencia local y el mundial.
 
