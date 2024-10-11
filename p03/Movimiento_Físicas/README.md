@@ -42,7 +42,9 @@ Crea un script asociado al cubo que en cada iteración traslade al cubo una cant
 
 Mueve el cubo con las teclas de flecha arriba-abajo, izquierda-derecha a la velocidad speed. Cada uno de estos ejes implican desplazamientos en el eje vertical y horizontal respectivamente. Mueve la esfera con las teclas w-s (movimiento vertical) a-d (movimiento horizontal).
 
-![eje4](https://github.com/user-attachments/assets/68be9fa3-3f01-4d6a-9a2b-de4155e1bc8d)
+![eje4](https://github.com/user-attachments/assets/c0a16a71-902b-4669-b9f9-91c350157029)
+
+Si ambos objetos son Rigidbody cinemáticos, no actuarán las fuerzas físicas sobre ellos y, por lo tanto, no colisionarán correctamente. Para que se produzcan colisiones entre ellos, al menos uno de los objetos debe ser un Rigidbody normal. Ambos objetos pueden ser Rigidbody normales, y deben ser movidos utilizando métodos que integren la física, como Rigidbody.MovePosition() o aplicando fuerzas, en lugar de modificar directamente el transform. Esto permitirá que el motor de física detecte y responda a las colisiones entre los objetos adecuadamente. Aunque en este caso, he decidido que ambos sean RigidBody cinemáticos. 
 
 ---
 
