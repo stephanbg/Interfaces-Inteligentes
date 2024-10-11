@@ -100,7 +100,7 @@ Adapta el movimiento en el ejercicio 6 de forma que el cubo gire hacia la esfera
 
 En el gif, el cubo combina su movimiento hacia la esfera con la rotación usando LookAt, adaptándose automáticamente al nuevo objetivo al cambiarlo. Es crucial que el movimiento esté en el espacio del mundo, ya que, de lo contrario, el cubo podría moverse en trayectorias curvilíneas debido a su propia rotación. Al utilizar el espacio del mundo, se garantiza un desplazamiento directo hacia la esfera. En resumen, esta combinación permite un seguimiento fluido y preciso del objetivo.
 
-![eje7](https://github.com/user-attachments/assets/61a42147-f852-442e-879d-16e341666ec1)
+![eje7](https://github.com/user-attachments/assets/eba4505e-3599-4c98-bd58-ea7f34b3888d)
 
 ---
 
