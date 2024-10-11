@@ -35,6 +35,16 @@ Crea un script asociado al cubo que en cada iteración traslade al cubo una cant
 Al duplicar las coordenadas del vector de dirección, aumentas la velocidad de movimiento del cubo porque el desplazamiento total en cada iteración se calcula multiplicando la dirección (que ahora es más larga, pero sigue apuntando en la misma dirección) por la velocidad. Esto significa que, al incrementar la longitud del vector de dirección, el cubo se mueve más rápidamente en cada actualización, ya que se desplaza una mayor distancia en el mismo intervalo de tiempo.
 
  b.- duplicas la velocidad manteniendo la dirección del movimiento.
+
+ ![eje3(b)](https://github.com/user-attachments/assets/f8f4f479-7ce2-4e22-818c-23458fdfe75b)
+
+En este segundo caso, al duplicar la velocidad y mantener la proporcionalidad sin cambios, se obtiene el mismo resultado que en el apartado (a). Esto se debe a que, al final, simplemente se está multiplicando la fórmula original por un factor de 2.
+
+```bash
+transform.Translate(movimientoDireccion.normalized * proporcionalidad * velocidad * Time.deltaTime);
+```
+
+Por lo tanto, al duplicar la velocidad, efectivamente se duplica el desplazamiento total del cubo en cada iteración, igualando el efecto de haber duplicado la dirección del movimiento. Ambos enfoques llevan al cubo a la misma posición final tras un intervalo de tiempo determinado.
  
  c.- la velocidad que usas es menor que 1.
  
