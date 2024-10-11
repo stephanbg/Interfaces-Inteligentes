@@ -86,6 +86,12 @@ En el ejercicio anterior, ya había ajustado el movimiento para que fuera propor
 
 Adapta el movimiento en el ejercicio 5 para que el cubo se mueva hacia la posición de la esfera. Debes considerar, que el avance no debe estar influenciado por cuánto de lejos o cerca estén los dos objetos. 
 
+En el gif que describes, el cubo sigue a la esfera sin modificar su altura gracias a que el script calcula continuamente la dirección entre ambos. Se detiene al alcanzar la esfera, ya que el vector de dirección se convierte en cero. Si se modifica el inspector y el cubo no puede encontrar el objeto objetivo, se detiene. Sin embargo, si encuentra otro objeto, como la cápsula de la escena, comenzará a seguirlo.
+
+El Rigidbody cinemático puede atravesar el collider estático de la cápsula porque al moverse con transform.Translate, no se detectan correctamente las colisiones. Para que el cubo choque con la cápsula, debería configurarse como un Rigidbody normal y moverse usando Rigidbody.MovePosition, lo que permitiría que Unity manejese las colisiones adecuadamente. Además, sería necesario colocar el cubo sobre un plano estático para evitar que el cubo cayese por la gravedad.
+
+![eje6](https://github.com/user-attachments/assets/d4a14725-153e-4b44-871f-302baca3118f)
+
 ---
 
 ### Ejercicio 7
