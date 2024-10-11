@@ -143,3 +143,9 @@ Configura el cilindro como un objeto de tipo Trigger. Adapta los scripts de los 
 Agrega un cilindro de un color diferente al que ya hay en la escena y configúralo como un objeto físico. Selecciona un conjunto de teclas que te permitan controlar su movimiento por la escena y prográmale un movimiento que permita dirigirlo hacia la esfera. Prueba diferentes configuraciones de la esfera física con masa 10 veces mayor que el cilindro, física con masa 10 veces menor que el cilindro, cinemática y trigger. También prueba la configuración del cilindro de forma que su fricción se duplique o no. Explica en el informe todos los resultados posibles. 
 
 ---
+
+### Nota adicional
+
+Formas de colisiones (Extracción del manual de unity)
+
+![manual_unity_colisiones](https://github.com/user-attachments/assets/3b31c197-7925-406c-b098-bac3df848b59)
