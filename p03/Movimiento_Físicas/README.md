@@ -128,7 +128,7 @@ La esfera y el cubo están configurados como RigidBody cinemáticos para que pue
 
 Además, le he desactivado la gravedad en la cápsula. Esto es importante porque, si la gravedad estuviera activa, la cápsula caería libremente, lo que complicaría la visualización del contacto entre la esfera y el cubo. Al eliminar la gravedad, aseguro que la cápsula permanezca en su lugar, permitiendo una interacción clara y controlada entre los tres objetos y facilitando la demostración de las colisiones.
 
-![eje9](https://github.com/user-attachments/assets/73cb834e-853b-4218-a0f0-a9a88e0b3385)
+![eje9](https://github.com/user-attachments/assets/ec4014c0-41fc-47cd-9d23-dd8c744c61d1)
 
 ---
 
@@ -152,7 +152,7 @@ Cuando el cubo o la esfera colisionan con un objeto que tiene un RigidBody norma
 
 Es importante destacar que los objetos marcados como triggers permiten el paso a través de ellos; es decir, no generan una colisión física en el sentido tradicional, lo que significa que los objetos pueden atravesarlos. Sin embargo, el trigger puede aún responder a la física, lo que permite que otros objetos interactúen con él en términos de detección de entrada, pero no se detendrán al chocarse. Esto permite una interacción más flexible en el juego, donde algunos objetos pueden ser atravesados pero aún generar eventos cuando otros entran en contacto con ellos.
 
-![eje11](https://github.com/user-attachments/assets/a242a054-095c-4efb-aa73-61ee619becf4)
+![eje11](https://github.com/user-attachments/assets/717a4d54-88e8-4796-97fb-fcefab039369)
 
 ---
 
