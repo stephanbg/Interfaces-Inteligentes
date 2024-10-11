@@ -10,7 +10,7 @@
 
 Agrega un campo velocidad a un cubo y asígnale un valor que se pueda cambiar en el inspector de objetos. Muestra la consola el resultado de multiplicar la velocidad por el valor del eje vertical y por el valor del eje horizontal cada vez que se pulsan las teclas flecha arriba-abajo ó flecha izquierda-derecha. El mensaje debe comenzar por el nombre de la flecha pulsada.
 
-![eje1](https://github.com/user-attachments/assets/143ff9be-8168-411c-b7e9-a48338f9542d)
+![eje1](https://github.com/user-attachments/assets/c6c1b1e0-9557-451c-8e5d-08b25086c025)
 
 ---
 
