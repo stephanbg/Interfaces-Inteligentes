@@ -160,6 +160,50 @@ Es importante destacar que los objetos marcados como triggers permiten el paso a
 
 Agrega un cilindro de un color diferente al que ya hay en la escena y configúralo como un objeto físico. Selecciona un conjunto de teclas que te permitan controlar su movimiento por la escena y prográmale un movimiento que permita dirigirlo hacia la esfera. Prueba diferentes configuraciones de la esfera física con masa 10 veces mayor que el cilindro, física con masa 10 veces menor que el cilindro, cinemática y trigger. También prueba la configuración del cilindro de forma que su fricción se duplique o no. Explica en el informe todos los resultados posibles. 
 
+El script permite que un cilindro se mueva automáticamente hacia una esfera, rotando suavemente para apuntar hacia ella mientras se desplaza a una velocidad constante. Utiliza un Rigidbody para manejar el movimiento físico y detiene el cilindro al colisionar con la esfera. Además, el jugador puede cambiar el objetivo del movimiento desde el inspector, lo que añade interactividad al permitir que el cilindro persiga otros objetos en la escena. Este comportamiento se logra mediante cálculos de dirección, rotación suave con Quaternion.Slerp y detección de colisiones.
+
+![eje12_MoverCilindroDirectoAEsfera](https://github.com/user-attachments/assets/33d02d40-9cc7-4481-9033-5aefc229cbb3)
+
+En este script, se habilita el movimiento del cilindro en respuesta a las flechas del teclado, empleando `Rigidbody.MovePosition` para su desplazamiento y `Rigidbody.MoveRotation` para la rotación del script anterior. Este enfoque asegura que se respeten las interacciones físicas del motor de Unity, lo cual es fundamental para un Rigidbody no cinemático, ya que modificar directamente la propiedad transform podría provocar desincronización con la simulación física.
+
+![eje12_MoverCIlindroConFlechas](https://github.com/user-attachments/assets/b38b2ee4-0100-4566-9acc-79749b1db9d9)
+
+Ahora se procederá a las pruebas:
+ 
+ - La esfera con una masa 10 veces superior a la del cilindro (Ambos RigidBodies perfectos).
+
+   El cilindro desplaza a la esfera, pero muy lentamente.
+
+   ![eje12_x10masaEsfera](https://github.com/user-attachments/assets/dec6bd34-e843-46a0-971a-e96a353c42f1)
+
+ - El cilindro con una masa 10 veces superior a la de la esfera (Ambos RigidBodies perfectos).
+
+   El cilindro desplaza a la esfera, pero mucho más fácilmente.
+
+   ![eje12_x10masaCilindro](https://github.com/user-attachments/assets/a5965dea-d495-4511-a731-6957b3b2d149)
+
+ - La esfera con una masa 10 veces superior a la del cilindro (Cilindro RigidBody perfecto y esfera cinemática).
+
+   ![eje12_x10masaEsferaCinematica](https://github.com/user-attachments/assets/1e2e8cd1-099c-49a7-af2e-afb6125999c4)
+
+ - El cilindro con una masa 10 veces superior a la de la esfera (Cilindro RigidBody perfecto y esfera cinemática).
+
+   ![eje12_x10masaCilindroEsferaCinematica](https://github.com/user-attachments/assets/844ce293-a52c-45d2-8c11-17ba60eae8e1)
+
+   Independientemente de la masa de la esfera, al ser cinemática, no se verá afectada por las colisiones con el cilindro. Esto significa que, por mucho que el cilindro choque con ella, la esfera permanecerá en su posición y no será desplazada.
+
+ - La esfera con una masa 10 veces superior a la del cilindro (Cilindro RigidBody perfecto y esfera cinemática).
+
+   ![eje12_x10masaEsferaTrigger](https://github.com/user-attachments/assets/03a13803-8632-4651-8717-1e0e5cd6429b)
+
+ - El cilindro con una masa 10 veces superior a la de la esfera (Cilindro RigidBody perfecto y esfera cinemática).
+
+   ![eje12_x10masaCilindroEsferaTrigger](https://github.com/user-attachments/assets/0e133b4f-e1be-44d5-9710-517dd35a4457)
+   
+   En ambos casos, al configurar la esfera como un Trigger, el cilindro puede atravesarla sin colisionar físicamente. Esto se debe a que los objetos designados como Triggers en Unity no participan en la resolución de colisiones, lo que permite que otros objetos, como el cilindro, pasen a través de ellos sin ser detenidos. Esta configuración es útil para crear zonas interactivas o áreas de detección donde se puedan activar eventos sin que los objetos colisionen físicamente, permitiendo un comportamiento más dinámico y fluido en el juego.
+
+FALTAN EJEMPLOS FRICCIONES.
+
 ---
 
 ### Nota adicional
