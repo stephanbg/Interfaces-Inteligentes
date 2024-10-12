@@ -62,7 +62,9 @@ Al partir de `y = 2` y usar un movimiento basado en la referencia local, el cubo
  
  e.- intercambiar movimiento relativo al sistema de referencia local y el mundial.
 
-FALTA
+![eje3(e)](https://github.com/user-attachments/assets/0803cf56-dbbc-4aa5-84ae-f94ae57f86ae)
+
+Cuando se utiliza Space.Self, un vector de dirección como (1, 0, 0) hace que el objeto se mueva en función de su propia orientación, avanzando hacia su "derecha" local, lo que significa que su dirección de movimiento cambia si el objeto se rota. En cambio, con Space.World, el mismo vector de dirección mueve el objeto en la dirección positiva del eje X global del mundo, sin importar su rotación.
 
 ---
 
