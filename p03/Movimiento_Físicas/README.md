@@ -192,11 +192,11 @@ Ahora se procederá a las pruebas:
 
    Independientemente de la masa de la esfera, al ser cinemática, no se verá afectada por las colisiones con el cilindro. Esto significa que, por mucho que el cilindro choque con ella, la esfera permanecerá en su posición y no será desplazada.
 
- - La esfera con una masa 10 veces superior a la del cilindro (Cilindro RigidBody perfecto y esfera cinemática).
+ - La esfera con una masa 10 veces superior a la del cilindro (Cilindro RigidBody perfecto y esfera trigger).
 
    ![eje12_x10masaEsferaTrigger](https://github.com/user-attachments/assets/03a13803-8632-4651-8717-1e0e5cd6429b)
 
- - El cilindro con una masa 10 veces superior a la de la esfera (Cilindro RigidBody perfecto y esfera cinemática).
+ - El cilindro con una masa 10 veces superior a la de la esfera (Cilindro RigidBody perfecto y esfera trigger).
 
    ![eje12_x10masaCilindroEsferaTrigger](https://github.com/user-attachments/assets/0e133b4f-e1be-44d5-9710-517dd35a4457)
    
