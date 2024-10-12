@@ -4,6 +4,8 @@
 
 ## Objetivos
 
+El objetivo de la práctica es desarrollar scripts en Unity para controlar el movimiento y las interacciones de un cubo y una esfera. Los ejercicios incluyen mover el cubo con las teclas de flecha, calcular resultados basados en su velocidad y dirección, y configurar interacciones físicas con un cilindro. Se explorarán diferentes configuraciones de objetos (cinemáticos, triggers) y se documentarán los efectos de estas configuraciones en el comportamiento de los objetos al colisionar. La práctica busca fortalecer la comprensión de las físicas en Unity y la programación de interacciones entre objetos.
+
 ---
 
 ### Ejercicio 1
