@@ -130,9 +130,9 @@ El gif resultante muestra cómo ambos scripts interactúan: el cubo gira en func
 
 Configura el cilindro como un objeto físico, cuando el cubo o la esfera colisionen con él se debe mostrar un mensaje en consola con la etiqueta del objeto que haya colisionado. 
 
-La esfera y el cubo están configurados como RigidBody cinemáticos para que pueda controlar su movimiento de manera precisa. Al hacerlo, puedo manipular su posición directamente sin que la física de Unity interfiera. Sin embargo, para detectar colisiones correctamente utilizando el método `OnCollisionEnter()`, es fundamental que la cápsula tenga un RigidBody no cinemático. Si la cápsula es cinemática, el método de colisión no se activará, lo que impediría que se registrara el contacto con la esfera y el cubo.
+La esfera y el cubo están configurados como RigidBody cinemáticos para que pueda controlar su movimiento de manera precisa. Al hacerlo, puedo manipular su posición directamente sin que la física de Unity interfiera. Sin embargo, para detectar colisiones correctamente utilizando el método `OnCollisionEnter()`, es fundamental que el cilindro tenga un RigidBody no cinemático. Si el cilindro es cinemática, el método de colisión no se activará, lo que impediría que se registrara el contacto con la esfera y el cubo.
 
-Además, le he desactivado la gravedad en la cápsula. Esto es importante porque, si la gravedad estuviera activa, la cápsula caería libremente, lo que complicaría la visualización del contacto entre la esfera y el cubo. Al eliminar la gravedad, aseguro que la cápsula permanezca en su lugar, permitiendo una interacción clara y controlada entre los tres objetos y facilitando la demostración de las colisiones.
+Además, le he desactivado la gravedad en el cilindro. Esto es importante porque, si la gravedad estuviera activa, el cilindro caería libremente, lo que complicaría la visualización del contacto entre la esfera y el cubo. Al eliminar la gravedad, aseguro que el cilindro permanezca en su lugar, permitiendo una interacción clara y controlada entre los tres objetos y facilitando la demostración de las colisiones.
 
 ![eje9](https://github.com/user-attachments/assets/ec4014c0-41fc-47cd-9d23-dd8c744c61d1)
 
