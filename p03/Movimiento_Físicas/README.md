@@ -60,6 +60,8 @@ Al partir de `y = 2` y usar un movimiento basado en la referencia local, el cubo
  
  e.- intercambiar movimiento relativo al sistema de referencia local y el mundial.
 
+FALTA
+
 ---
 
 ### Ejercicio 4
