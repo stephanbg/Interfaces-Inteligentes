@@ -17,7 +17,7 @@ using UnityEngine;
 // Clase que mueve un objeto continuamente hacia adelante en su dirección local.
 public class MoverForward : MonoBehaviour {
   // Velocidad a la que el objeto avanzará en su eje Z.
-  public float velocidad = 1;
+  public float velocidad = 1f;
   // Actualiza la posición del objeto en cada frame para moverlo hacia adelante.
   private void Update() {
     transform.Translate(transform.forward * velocidad * Time.deltaTime);
