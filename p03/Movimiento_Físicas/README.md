@@ -40,19 +40,19 @@ Al duplicar las coordenadas del vector de dirección en un caso general, aumenta
 
  ![eje3(b)](https://github.com/user-attachments/assets/f8f4f479-7ce2-4e22-818c-23458fdfe75b)
 
-En este segundo caso, al duplicar la velocidad y mantener la proporcionalidad sin cambios, se obtiene el mismo resultado que en el apartado (a). Esto se debe a que, al final, simplemente se está multiplicando la fórmula original por un factor de 2.
+En este segundo caso, al duplicar la velocidad y mantener la proporcionalidad sin cambios, se obtiene el doble de velocidad. Esto se debe a que, al final, simplemente se está multiplicando la fórmula original por un factor de 2.
 
 ```bash
 transform.Translate(movimientoDireccion.normalized * proporcionalidad * velocidad * Time.deltaTime);
 ```
 
-Por lo tanto, al duplicar la velocidad, efectivamente se duplica el desplazamiento total del cubo en cada iteración, igualando el efecto de haber duplicado la dirección del movimiento. Ambos enfoques llevan al cubo a la misma posición final tras un intervalo de tiempo determinado.
+Por lo tanto, al duplicar la velocidad, efectivamente se duplica el desplazamiento total del cubo en cada iteración, igualando el efecto de haber duplicado la dirección del movimiento sin normalización. Ambos enfoques llevan al cubo a la misma posición final tras un intervalo de tiempo determinado.
  
  c.- la velocidad que usas es menor que 1.
 
  ![eje3(c)](https://github.com/user-attachments/assets/bfbd5ac6-1e61-49ad-a00e-89232ed922dd)
 
-Al utilizar una velocidad de 0.5, estamos limitando el desplazamiento del cubo, lo que efectivamente actúa como un factor de división por 2. Por lo tanto, aunque el cubo se mueve en la misma dirección, lo hace a una velocidad reducida, resultando en un desplazamiento más lento. al utilizar una velocidad de 0.5, estamos limitando el desplazamiento del cubo, lo que efectivamente actúa como un factor de división por 2. Por lo tanto, aunque el cubo se mueve en la misma dirección, lo hace a una velocidad reducida, resultando en un desplazamiento más lento.
+Al utilizar una velocidad de 0.5, estamos limitando el desplazamiento del cubo, lo que efectivamente actúa como un factor de división por 2. Por lo tanto, aunque el cubo se mueve en la misma dirección, lo hace a una velocidad reducida, resultando en un desplazamiento más lento.
  
  d.- la posición del cubo tiene y>0.
 
