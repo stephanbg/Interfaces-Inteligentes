@@ -84,7 +84,7 @@ El plano es un objeto físico. El cubo es un objeto físico y la esfera es físi
 - Cubo, Esfera y Plano (Rigidbody, Box Collider, Sphere Collider y Mesh Collider):
   - Ahora los 3 objetos de la escena son RigidBody, por lo que reciben interacciones físicas (gravedad, movimiento).
 
-Por lo tanto, como se observa a continuación, todos los objetos tienen la misma masa, lo que permite que la gravedad actúe de manera uniforme sobre ellos, haciendo que caigan simultáneamente.
+Por lo tanto, como se observa a continuación, todos los objetos tienen la misma fricción (drag), lo que permite que la gravedad actúe de manera uniforme sobre ellos, haciendo que caigan simultáneamente.
 
 ![situacion4](https://github.com/user-attachments/assets/822a00b0-a10a-475c-acfa-239310c8951b)
 
