@@ -208,7 +208,15 @@ Ahora se procederá a las pruebas:
    
    En ambos casos, al configurar la esfera como un Trigger, el cilindro puede atravesarla sin colisionar físicamente. Esto se debe a que los objetos designados como Triggers en Unity no participan en la resolución de colisiones, lo que permite que otros objetos, como el cilindro, pasen a través de ellos sin ser detenidos. Esta configuración es útil para crear zonas interactivas o áreas de detección donde se puedan activar eventos sin que los objetos colisionen físicamente, permitiendo un comportamiento más dinámico y fluido en el juego.
 
-FALTAN EJEMPLOS FRICCIONES.
+ - El cilindro con el doble de fricción que la esfera.
+
+   ![eje12_friccionCilindrox2](https://github.com/user-attachments/assets/c4c193cc-1b44-4005-b037-f0e072bfd98d)
+
+ - El cilindro con la misma fricción que la esfera.
+   
+   ![eje12_friccionCilindro](https://github.com/user-attachments/assets/a30ff951-53d0-4fbc-bbad-1de4c4d3025f)
+
+   Cuando un objeto con más fricción choca con otro, se detiene más rápido porque la fricción lo frena más. En el primer gif, el cilindro se detiene antes por esta razón. En el segundo gif, si ambos objetos parecen parar a la vez, se debe a que tienen la misma fricción. Otros factores como el peso y la superficie también afectan cómo se comportan después del choque.
 
 ---
 
