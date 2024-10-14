@@ -17,7 +17,7 @@ using UnityEngine;
 // Clase que permite rotar un objeto manualmente mediante la entrada del teclado. Horizontalmente
 public class RotarManualmente : MonoBehaviour {
   // Velocidad de rotación del objeto.
-  public float velocidadRotacion = 100;
+  public float velocidadRotacion = 100f;
   /** Actualiza la rotación del objeto en cada frame según la entrada horizontal del teclado.
    *  Siempre gira sobre el eje Y del objeto de manera local.
    */
