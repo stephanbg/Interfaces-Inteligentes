@@ -152,7 +152,7 @@ El script `MostrarNombreCuandoColisione` ya está correctamente configurado para
 
 Configura el cilindro como un objeto de tipo Trigger. Adapta los scripts de los ejercicios anteriores para obtener el mismo comportamiento.
 
-He configurado el cubo y la esfera como RigidBodies cinemáticos para poder controlarlos y moverlos de manera precisa. Al añadir un componente de RigidBody a la cápsula y marcarlo como `Is Trigger`, se activa el evento `OnTriggerEnter()` cuando el cubo o la esfera entran en contacto con la cápsula. Esto significa que, aunque ambos objetos (el cubo y la esfera) tengan sus scripts de colisión asignados, se comportarán de manera diferente según el tipo de colisión que experimenten.
+He configurado el cubo y la esfera como RigidBodies cinemáticos para poder controlarlos y moverlos de manera precisa. Al añadir un componente de RigidBody al cilindro y marcarlo como `Is Trigger`, se activa el evento `OnTriggerEnter()` cuando el cubo o la esfera entran en contacto con el cilindro. Esto significa que, aunque ambos objetos (el cubo y la esfera) tengan sus scripts de colisión asignados, se comportarán de manera diferente según el tipo de colisión que experimenten.
 
 Cuando el cubo o la esfera colisionan con un objeto que tiene un RigidBody normal (no marcado como trigger), se activará el evento de colisión estándar, permitiendo que se detecten interacciones físicas normales. Sin embargo, si colisionan con un objeto que tiene un RigidBody marcado como `Is Trigger`, se activará el evento `OnTriggerEnter()`.
 
