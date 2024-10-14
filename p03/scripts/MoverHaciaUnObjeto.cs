@@ -17,7 +17,7 @@ using UnityEngine;
 // Clase que permite mover un objeto hacia otro objeto especificado en la escena.
 public class MoverHaciaUnObjeto : MonoBehaviour {
   // Velocidad de movimiento del objeto.
-  public float velocidad = 1;
+  public float velocidad = 1f;
   // Nombre del objeto objetivo al que se moverá.
   public string nombreObj2 = "Sphere";
   // Vector que representa la dirección hacia el objeto objetivo.
