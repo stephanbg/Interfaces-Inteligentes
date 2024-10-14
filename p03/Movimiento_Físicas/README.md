@@ -34,7 +34,7 @@ Crea un script asociado al cubo que en cada iteración traslade al cubo una cant
 
 ![eje3(a)](https://github.com/user-attachments/assets/5562688d-a647-4c6c-9543-9cf61db7290f)
 
-Al duplicar las coordenadas del vector de dirección, aumentas la velocidad de movimiento del cubo porque el desplazamiento total en cada iteración se calcula multiplicando la dirección (que ahora es más larga, pero sigue apuntando en la misma dirección) por la velocidad. Esto significa que, al incrementar la longitud del vector de dirección, el cubo se mueve más rápidamente en cada actualización, ya que se desplaza una mayor distancia en el mismo intervalo de tiempo.
+Al duplicar las coordenadas del vector de dirección en un caso general, aumentarías la velocidad de movimiento del cubo porque el desplazamiento total en cada iteración se calcula multiplicando la dirección (que ahora es más larga, pero sigue apuntando en la misma dirección) por la velocidad. Esto significa que, al incrementar la longitud del vector de dirección, el cubo se mueve más rápidamente en cada actualización, ya que se desplaza una mayor distancia en el mismo intervalo de tiempo. Sin embargo, como el vector dirección ha sido normalizado, independientemente de la distancia que tiene que recorrer el objeto, siempre lo realizará a la misma velocidad.
 
  b.- duplicas la velocidad manteniendo la dirección del movimiento.
 
