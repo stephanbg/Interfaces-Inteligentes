@@ -14,7 +14,7 @@ En el gif, se puede observar cómo las esferas naranjas representan el tipo 1, m
 ---
 
 ## Ejercicio 2
-Sustituye los objetos geométricos por arañas para las esferas y huevo para el cilindro que encontrarás en el enlace
+Sustituye los objetos geométricos [por arañas para las esferas y huevo para el cilindro](https://assetstore.unity.com/packages/3d/characters/creatures/fuga-spiders-with-destructible-eggs-and-mummy-151921) que encontrarás en el enlace
 
 ---
 
