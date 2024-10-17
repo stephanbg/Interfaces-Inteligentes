@@ -16,6 +16,10 @@ En el gif, se puede observar cómo las esferas naranjas representan el tipo 1, m
 ## Ejercicio 2
 Sustituye los objetos geométricos [por arañas para las esferas y huevo para el cilindro](https://assetstore.unity.com/packages/3d/characters/creatures/fuga-spiders-with-destructible-eggs-and-mummy-151921) que encontrarás en el enlace
 
+En este gif, se muestra la sustitución del cilindro por un huevo, así como el reemplazo de las esferas por arañas. Es importante destacar que realicé un análisis del Animator para comprender el momento exacto en que ocurre la transición de IDLE a RUN. Esto me permitió programar el comportamiento adecuado para que, al chocar el cubo con el huevo, las arañas comenzaran a moverse.
+
+![eje2](https://github.com/user-attachments/assets/fd143cf6-9d47-4757-802c-4a97b4f0ea6b)
+
 ---
 
 ## Ejercicio 3
