@@ -46,6 +46,10 @@ Una vez que el cubo se aleja y supera la distancia crítica, todas las arañas r
 ## Ejercicio 5
 Implementar la mecánica de recolectar huevo en la escena que actualicen la puntuación del jugador. Las arañas de tipo 1 suman 5 puntos y las arañas de tipo 2 suman 10. Mostrar la puntuación en la consola.
 
+En el gif se puede observar cómo las dos arañas en la parte inferior pertenecen al tipo 1. Al colisionar con un huevo, su puntuación aumenta en 5 puntos. Por otro lado, las arañas situadas en la parte superior son del tipo 2 y, al chocar con un huevo, incrementan la puntuación en 10 puntos.
+
+![eje5](https://github.com/user-attachments/assets/2bebbc76-9de3-4ca9-850c-c4c4a458bacc)
+
 ---
 
 ## Ejercicio 6
