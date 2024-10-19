@@ -26,6 +26,10 @@ En este gif, se muestra la sustitución del cilindro por un huevo, así como el 
 Adapta la escena anterior para que existan arañas de tipo 1 y de tipo 2, así como diferentes tipos de huevo, tipo 1 y tipo 2:
 * Cuando el cubo colisiona con cualquier araña tipo 2,  las arañas en el grupo 1 se acercan a un objeto seleccionado. Cuando el cubo toca cualquier araña del grupo 1 se dirigen hacia los huevos del grupo 2 que serán objetos físico. Si alguna araña colisiona con uno de ellos debe cambiar de color. 
 
+En el gif, el cubo interactúa inicialmente con una araña de tipo 1, lo que provoca que ambas arañas de este tipo se dirijan hacia un huevo aleatorio de tipo 2, donde cambian de color. Posteriormente, al tocar una araña de tipo 2, las arañas de tipo 1 se dirigen hacia la momia en la escena.
+
+![eje3](https://github.com/user-attachments/assets/b963d386-fbaa-488a-8829-7c798975d6b9)
+
 ---
 
 ## Ejercicio 4
