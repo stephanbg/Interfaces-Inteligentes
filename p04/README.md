@@ -35,6 +35,12 @@ En el gif, el cubo interactúa inicialmente con una araña de tipo 1, lo que pro
 ## Ejercicio 4
 Cuando el cubo se aproxima al objeto de referencia, las arañas del grupo 1 se teletransportan a un huevo objetivo que debes fijar de antemano.Las arañas del grupo 2 se orientan hacia un objeto ubicado en la escena con ese propósito. 
 
+En elgif se observa cómo, al acercarse el cubo a una cierta distancia de la momia, se desencadenan varias acciones. Primero, las arañas de tipo 1 se teletransportan al huevo que se encuentra en la parte inferior de la pantalla. Al mismo tiempo, las tres arañas de tipo 2 ajustan su orientación para mirar hacia el quad ubicado en la pared izquierda.
+
+Una vez que el cubo se aleja y supera la distancia crítica, todas las arañas regresan a su estado original, restableciendo así su comportamiento previo.
+
+![eje4](https://github.com/user-attachments/assets/b3c6043c-e67e-47d2-a2b5-5e3256558210)
+
 ---
 
 ## Ejercicio 5
