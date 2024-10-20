@@ -48,7 +48,7 @@ Implementar la mecánica de recolectar huevo en la escena que actualicen la punt
 
 En el gif se puede observar cómo las dos arañas en la parte inferior pertenecen al tipo 1. Al colisionar con un huevo, su puntuación aumenta en 5 puntos. Por otro lado, las arañas situadas en la parte superior son del tipo 2 y, al chocar con un huevo, incrementan la puntuación en 10 puntos.
 
-![eje5](https://github.com/user-attachments/assets/2bebbc76-9de3-4ca9-850c-c4c4a458bacc)
+![eje5](https://github.com/user-attachments/assets/b283a55a-8cb8-4a87-9997-1d98d253ff64)
 
 ---
 
@@ -57,7 +57,7 @@ Partiendo del script anterior crea una interfaz que muestre la puntuación que v
 
 En el gif se puede ver cómo he integrado el elemento canvas, y a su vez, dentro del mismo el elemento de TextMeshPro que muestra la puntuación actual del cubo. A medida que el cubo recolecta huevos a través de las distintas arañas, la puntuación se actualiza en tiempo real, reflejando los puntos obtenidos por cada tipo de araña. (He decidido no desactivar los huevos, debido a que hay muy pocos en la escena y no se podría llegar a una puntuación alta).
 
-![eje6](https://github.com/user-attachments/assets/2e8bc0eb-2c59-48f6-9be4-064249af3430)
+![eje6](https://github.com/user-attachments/assets/94a57e49-c18a-421d-861a-5a604fb332ed)
 
 ---
 
