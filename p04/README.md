@@ -64,6 +64,14 @@ En el gif se puede ver cómo he integrado el elemento canvas, y a su vez, dentro
 ## Ejercicio 7
 Partiendo de los ejercicios anteriores, implementa una mecánica en la que cada 100 puntos el jugador obtenga una recompensa que se muestre en la UI.
 
+En el gif, se observa cómo el jugador recolecta huevos, acumulando puntos a medida que avanza. Al llegar a 100 puntos, se activa un mensaje de recompensa que aparece en la pantalla, informando al usuario sobre su logro.
+
+Una vez que se muestra el mensaje de recompensa, el juego se pausa automáticamente. Esto significa que el jugador no puede continuar hasta que presione la barra espaciadora. Esta pausa permite que el jugador se tome un momento para leer el mensaje y reflexionar sobre su progreso antes de seguir adelante.
+
+Además, para demostrar de manera más efectiva el sistema de puntuación y recompensas, se utilizó el script de teletransporte. Este script permite que las arañas recojan puntos más rápidamente, lo que facilita que el jugador alcance los hitos de 100 y 200 puntos en menos tiempo. De esta forma, se pudo observar cómo se activaban los mensajes de recompensa en diferentes momentos del juego, evidenciando la dinámica de puntuación y recompensas.
+
+![eje7](https://github.com/user-attachments/assets/4df89dcd-14aa-4dd4-ab12-eb5d4b01bdcb)
+
 ---
 
 ## Ejercicio 8
