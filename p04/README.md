@@ -55,6 +55,10 @@ En el gif se puede observar cómo las dos arañas en la parte inferior pertenece
 ## Ejercicio 6
 Partiendo del script anterior crea una interfaz que muestre la puntuación que va obteniendo el cubo. 
 
+En el gif se puede ver cómo he integrado el elemento canvas, y a su vez, dentro del mismo el elemento de TextMeshPro que muestra la puntuación actual del cubo. A medida que el cubo recolecta huevos a través de las distintas arañas, la puntuación se actualiza en tiempo real, reflejando los puntos obtenidos por cada tipo de araña. (He decidido no desactivar los huevos, debido a que hay muy pocos en la escena y no se podría llegar a una puntuación alta).
+
+![eje6](https://github.com/user-attachments/assets/2e8bc0eb-2c59-48f6-9be4-064249af3430)
+
 ---
 
 ## Ejercicio 7
