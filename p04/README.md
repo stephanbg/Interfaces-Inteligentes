@@ -77,6 +77,28 @@ Además, para demostrar de manera más efectiva el sistema de puntuación y reco
 ## Ejercicio 8
 Genera una escena que incluya elementos que se ajusten a la escena del prototipo y alguna de las mecánicas anteriores.
 
+En este proyecto, hemos desarrollado un entorno interactivo con una atmósfera de miedo, ambientado en una habitación de hospital abandonado. Aquí te detallo las mecánicas implementadas y cómo cada una contribuye a la experiencia general:
+
+### Mecánica de abrir la puerta
+
+En el primer gif, se puede observar la mecánica para abrir la puerta. El usuario simplemente hace clic en la pantalla, lo que provoca que la puerta se desplace hacia la izquierda. Esta interacción no solo establece un sentido de inmersión, sino que también permite al jugador explorar diferentes áreas del hospital, aumentando la curiosidad y la tensión.
+
+![eje8-puerta](https://github.com/user-attachments/assets/73b21abb-0fef-4cc7-87f7-beacb2c1456e)
+
+## Interacción con el aparato de electricidad
+
+El segundo gif muestra cómo se puede interactuar con un dispositivo que controla la electricidad. Al hacer clic en la pantalla, el usuario puede encender o apagar la luz. Esta mecánica es fundamental para crear un ambiente inquietante; la iluminación juega un papel crucial en el terror psicológico, y la capacidad de manipularla añade una capa de control al jugador, mientras que también genera un sentido de vulnerabilidad.
+
+![eje8-luz](https://github.com/user-attachments/assets/ebeb639d-c225-41a3-88ab-86f4a466ca62)
+
+## Sistema de Inventario
+
+En el último gif, se presenta el sistema de inventario, donde los objetos recolectables pueden ser recogidos haciendo clic en la pantalla. Una vez que el jugador interactúa con un objeto, este se almacena en el inventario y se destruye de la escena. Esto no solo promueve la exploración, sino que también añade un elemento de estrategia, ya que los jugadores deben decidir qué objetos son más útiles para su progreso en el juego.
+
+![eje8-recolectables](https://github.com/user-attachments/assets/bc88437b-0541-4479-b4d0-75af1445e26d)
+
+Todo este sistema se desarrolla en un entorno de hospital abandonado, que es clave para el tono de miedo y misterio del juego. La combinación de mecánicas interactivas, exploración y una ambientación cuidadosamente diseñada se alinea perfectamente con la temática, creando una experiencia envolvente que busca mantener al jugador en tensión constantemente.
+
 ---
 
 ## Ejercicio 9
