@@ -81,3 +81,5 @@ Genera una escena que incluya elementos que se ajusten a la escena del prototipo
 
 ## Ejercicio 9
 Implementa el ejercicio 3 siendo el cubo un objeto físico.
+
+En el ejercicio 3 ya había implementado el cubo como objeto físico, moviéndolo con MovePosition y utilizando el método FixedUpdate.
