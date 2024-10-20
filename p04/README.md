@@ -85,13 +85,13 @@ En el primer gif, se puede observar la mecánica para abrir la puerta. El usuari
 
 ![eje8-puerta](https://github.com/user-attachments/assets/73b21abb-0fef-4cc7-87f7-beacb2c1456e)
 
-## Interacción con el aparato de electricidad
+### Interacción con el aparato de electricidad
 
 El segundo gif muestra cómo se puede interactuar con un dispositivo que controla la electricidad. Al hacer clic en la pantalla, el usuario puede encender o apagar la luz. Esta mecánica es fundamental para crear un ambiente inquietante; la iluminación juega un papel crucial en el terror psicológico, y la capacidad de manipularla añade una capa de control al jugador, mientras que también genera un sentido de vulnerabilidad.
 
 ![eje8-luz](https://github.com/user-attachments/assets/ebeb639d-c225-41a3-88ab-86f4a466ca62)
 
-## Sistema de Inventario
+### Sistema de Inventario
 
 En el último gif, se presenta el sistema de inventario, donde los objetos recolectables pueden ser recogidos haciendo clic en la pantalla. Una vez que el jugador interactúa con un objeto, este se almacena en el inventario y se destruye de la escena. Esto no solo promueve la exploración, sino que también añade un elemento de estrategia, ya que los jugadores deben decidir qué objetos son más útiles para su progreso en el juego.
 
