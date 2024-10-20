@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-El objetivo de esta práctica es implementar una mecánica de interacción compleja utilizando colisiones y triggers en Unity, en un entorno de juego basado en un prototipo con temática de terror. A través de la interacción entre diferentes tipos de objetos (cubo, arañas y huevos), se busca desarrollar un sistema de recolección que actualice la puntuación del jugador y presente recompensas a medida que se alcanzan ciertos hitos. Además, se requiere integrar una interfaz de usuario (UI) que muestre la puntuación actual y las recompensas obtenidas, proporcionando una experiencia más inmersiva y dinámica en la escena.
+El objetivo de esta práctica es implementar una mecánica de interacción compleja utilizando colisiones y triggers en Unity. A través de la interacción entre diferentes tipos de objetos (cubo, arañas y huevos), se busca desarrollar un sistema de recolección que actualice la puntuación del jugador y presente recompensas a medida que se alcanzan ciertos hitos. Además, se requiere integrar una interfaz de usuario (UI) que muestre la puntuación actual y las recompensas obtenidas, proporcionando una experiencia más inmersiva y dinámica en la escena.
 
 Durante esta práctica, también se aprenderá a implementar el patrón observador, que permite gestionar la comunicación entre los objetos de manera eficiente y reactiva, facilitando la respuesta a eventos como colisiones y cambios en el estado del juego. Esto ayudará a comprender mejor la gestión de colisiones, la interacción de objetos y el diseño de interfaces en Unity.
 
