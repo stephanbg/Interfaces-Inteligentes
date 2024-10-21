@@ -56,11 +56,13 @@ public class MoverHaciaUnObjetoSinAnimacion : MonoBehaviour {
   }
   // Se llama cuando ocurre una colisión.
   private void OnCollisionEnter(Collision colision) {
-    if (colision.gameObject.name == nombreObjDestino) moverHaciaObjetivo = false; // Detiene el movimiento al colisionar con el objeto objetivo.
+    // Detiene el movimiento al colisionar con el objeto objetivo.
+    if (colision.gameObject.name == nombreObjDestino && moverHaciaObjetivo) moverHaciaObjetivo = false;
   }
   // Se llama mientras se está colisionando con otro objeto.
   private void OnCollisionStay(Collision colision) {
-    if (colision.gameObject.name == nombreObjDestino) moverHaciaObjetivo = false; // Detiene el movimiento mientras se colisiona con el objeto objetivo.
+    // Detiene el movimiento mientras se colisiona con el objeto objetivo.
+    if (colision.gameObject.name == nombreObjDestino && moverHaciaObjetivo) moverHaciaObjetivo = false;
   }
   // Asegúrate de desuscribirte del evento al desactivar el objeto.
   private void OnDisable() {
