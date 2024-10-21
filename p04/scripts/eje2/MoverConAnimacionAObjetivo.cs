@@ -62,18 +62,18 @@ public class MoverConAnimacionAObjetivo : MonoBehaviour {
   }
   // Se llama cuando ocurre una colisión con el objeto objetivo, deteniendo el movimiento y la animación.
   private void OnCollisionEnter(Collision colision) {
-    if (colision.gameObject.name == nombreObjDestino) {
+    if (colision.gameObject.name == nombreObjDestino && moverHaciaObjetivo) {
       moverHaciaObjetivo = false;
       anim.SetBool("IsRunning", false);
     }
   }
   // Se llama mientras se está colisionando con otro objeto, deteniendo el movimiento y la animación si es el objeto objetivo.
   private void OnCollisionStay(Collision colision) {
-    if (colision.gameObject.name == nombreObjDestino) {
+    if (colision.gameObject.name == nombreObjDestino && moverHaciaObjetivo) {
       moverHaciaObjetivo = false;
       anim.SetBool("IsRunning", false);
     }
-  }  
+  }
   // Asegúrate de desuscribirte del evento al desactivar el objeto.
   private void OnDisable() {
     if (notificador != null) notificador.OnColision -= iniciarMovimiento;
