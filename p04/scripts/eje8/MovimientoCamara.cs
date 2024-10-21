@@ -19,7 +19,7 @@ using UnityEngine;
 // Clase que gestiona el movimiento y la rotación de la cámara.
 public class MovimientoCamara : MonoBehaviour {
   public float velocidadMovimiento = 10f; // Velocidad de movimiento de la cámara
-  public float velocidadRotacion = 10f; // Velocidad de rotación de la cámara
+  public float velocidadRotacion = 7f; // Velocidad de rotación de la cámara
   public float limiteRotacionVertical = 35f; // Ángulo máximo de rotación vertical
   private float distanciaRaycast = 0.5f; // Distancia para el raycast
   private float rotacionX = 0f, rotacionY = 0f; // Rotación en el eje X y eje Y
