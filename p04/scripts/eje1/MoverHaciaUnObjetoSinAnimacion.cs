@@ -7,7 +7,7 @@
  * @author Stephan Brommer Gutiérrez
  * @since 17/10/2024
  * @file MoverHaciaUnObjetoSinAnimacion.cs
- * @brief Este script permite mover un objeto hacia otro objeto especificado en la escena sin animar. // Eje1
+ * @brief Este script permite mover un objeto hacia otro objeto especificado en la escena sin animar. Eje1
  */
 
 using System.Collections;
