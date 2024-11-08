@@ -22,26 +22,15 @@ Los objetos en la escena tienen un **comportamiento visual** que cambia dependie
 El jugador tiene el objetivo de **recolectar dos calaveras** en la escena. Para hacerlo:
 
 - El jugador debe apuntar con el **reticle pointer** hacia las calaveras. Cuando el retículo está sobre ellas, la textura de las calaveras se aclara, lo que indica que pueden ser recolectadas.
-- Una vez seleccionadas, las calaveras se "recogen", lo que puede activar eventos en el juego (por ejemplo, aumentar el puntaje o activar animaciones).
+- Una vez seleccionadas, las calaveras se "recogen", lo que puede activar eventos en el juego, en este caso ambas calaveras aumentan 10 puntos cada una.
 
 ### 4. El Monstruo Persigue y Ataca
 Una vez que el jugador ha recolectado las calaveras, un **monstruo** comienza a perseguirlo y atacarlo. Este comportamiento se maneja de la siguiente manera:
 
-- **Desencadenar la persecución:** Cuando el jugador recoge las calaveras, el sistema activa una **IA de persecución** en el monstruo, quien comienza a moverse hacia la posición del jugador.
-- **Ataques del monstruo:** Si el monstruo alcanza al jugador, puede **atacar** e infligir daño. El jugador debe escapar o defenderse del monstruo, lo que agrega un nivel de desafío y tensión al juego.
-
-## Flujo del Sistema
-
-### 1. **Interacción con objetos:**
-   - Los objetos interactuables tienen una textura oscura inicialmente.
-   - Al apuntar con el **reticle pointer** hacia los objetos, su textura se aclara, lo que indica que pueden ser seleccionados e interactuados.
-
-### 2. **Recolectando las calaveras:**
-   - Al apuntar y seleccionar las calaveras, el jugador las recoge, lo que puede activar cambios en el estado del juego (por ejemplo, aumentar el puntaje o activar la persecución del monstruo).
-
-### 3. **Reacción del monstruo:**
-   - Después de recolectar las calaveras, el monstruo comienza a **perseguir** al jugador.
-   - Si el monstruo alcanza al jugador, este **ataca**.
+- **Desencadenar la persecución:** Cuando el jugador recoge las calaveras, el sistema activa al monstruo, quien comienza a moverse hacia la posición del jugador.
+- **Ataques del monstruo:** Si el monstruo alcanza al jugador, este **ataca**.
   
 Esto se puede observar en el siguiente gif:
+
+![escenas-cardboard-2](https://github.com/user-attachments/assets/6e09db29-a58a-4ee1-912c-7108ee1bc2ef)
 
