@@ -20,4 +20,5 @@ public class NotificadorRecolectorObjetos : MonoBehaviour {
   public event click OnClick; // Evento que se activa al hacer clic en el objeto.
   // Método que se llama cuando se detecta un clic del ratón sobre el objeto.
   private void OnMouseDown() { OnClick(gameObject); }
+  //private void OnPointerClick() { OnClick(gameObject); }
 }
