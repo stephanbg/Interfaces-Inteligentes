@@ -28,6 +28,6 @@ https://github.com/user-attachments/assets/744fb3bc-0627-46f9-b789-92034fd2c9f9
 
 4.- 
 
-
+![WebCam](https://github.com/user-attachments/assets/f82a0f1f-3977-439f-9995-5971d45fb7ac)
 
 5.- 
