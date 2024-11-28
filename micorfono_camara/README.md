@@ -12,6 +12,8 @@ El objetivo de esta práctica es el uso de componentes de entrada con Unity3D. L
 
 1.- 
 
+https://github.com/user-attachments/assets/140aa7ab-d369-4ac4-92a2-385182ff966f
+
 2.- 
 
 ---
