@@ -16,6 +16,8 @@ https://github.com/user-attachments/assets/140aa7ab-d369-4ac4-92a2-385182ff966f
 
 2.- 
 
+https://github.com/user-attachments/assets/c6fc0dcc-9e0d-4747-852d-33c0054e7695
+
 ---
 
 ### Cámara
