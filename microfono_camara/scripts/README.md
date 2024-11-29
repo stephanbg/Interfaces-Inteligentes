@@ -1,2 +1,3 @@
-Resto de scripts son de la Práctica 4:
+# Resto de scripts
 
+[Scripts P04](https://github.com/stephanbg/Interfaces-Inteligentes/tree/main/p04/scripts)
